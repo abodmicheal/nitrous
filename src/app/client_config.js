@@ -5,8 +5,8 @@ const BUIDL = {
     APP_ICON: 'build-it',
     APP_ICON_WIDTH: '150px',
     APP_ICON_HEIGHT: '40px',
-    APP_URL: 'https://www.build-it.io',
-    APP_DOMAIN: 'www.build-it.io',
+    APP_URL: 'https://www.buildl-it.com',
+    APP_DOMAIN: 'www.buildl-it.com',
     LIQUID_TOKEN: 'BUIDL',
     LIQUID_TOKEN_UPPERCASE: 'BUIDL',
     APP_MAX_TAG: 10,
@@ -20,7 +20,7 @@ const BUIDL = {
         'creating and curating content. It leverages a robust digital points system, called BUIDL, that ' +
         'supports real value for digital rewards through market price discovery and liquidity',
     // Revive Ads
-    NO_ADS_STAKE_THRESHOLD: 999999999,
+    NO_ADS_STAKE_THRESHOLD: 9999999999,
     REVIVE_ADS: {},
     ALLOW_MASTER_PW: false,
     // Footer to attach to posts. ${POST_URL} is a macro that can be used, will be expanded to the URL of the post.
@@ -45,7 +45,8 @@ const BUIDL = {
 export const CONFIG_MAP = {
     // testing heroku/local options
     'localhost:8080': BUIDL,
-    'www.build-it.io': BUIDL,
+    'www.buildl-it.com': BUIDL,
+    'buildl-it.com': BUIDL,
 };
 
 export const HIVE_SIGNER_APP = 'ewd';
